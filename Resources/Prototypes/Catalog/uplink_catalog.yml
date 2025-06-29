@@ -224,9 +224,9 @@
   productEntity: ClothingBackpackDuffelSyndicateFilledGrenadeLauncher
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 20
+    Telecrystal: 28
   cost:
-    Telecrystal: 25
+    Telecrystal: 35
   categories:
   - UplinkWeaponry
 
@@ -1646,6 +1646,20 @@
     Telecrystal: 2
   cost:
     Telecrystal: 4
+  categories:
+  - UplinkWearables
+
+- type: listing
+  id: UplinkMagbootsAdv
+  name: Кроваво-чёрные магнитные ботинки
+  description: Современные магнитные ботинки, которые немного ускоряют своего владельца. Сделано горлаксом для горлакса. Имеют увеличенный обьем.
+  icon: { sprite: /Textures/_Mini/Clothing/Shoes/Boots/advanced.rsi, state: icon }
+  productEntity: ClothingShoesBootsMagAdvSynd
+  discountCategory: rareDiscounts
+  discountDownTo:
+    Telecrystal: 8
+  cost:
+    Telecrystal: 12
   categories:
   - UplinkWearables
 

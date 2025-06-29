@@ -1,6 +1,6 @@
 - type: listing
   id: ADTBoberM90
-  name: boobr-m90-name
+  name: М-90
   description: boobr-m90-desc
   icon: { sprite: /Textures/Objects/Weapons/Guns/Rifles/carbine.rsi, state: base }
   productEntity: WeaponRifleM90GrenadeLauncher
@@ -23,7 +23,7 @@
 
 - type: listing
   id: ADTBoberLecter
-  name: boobr-lecter-name
+  name: Лектер
   description: boobr-lecter-desc
   icon: { sprite: /Textures/Objects/Weapons/Guns/Rifles/lecter.rsi, state: icon }
   productEntity: WeaponRifleLecter
@@ -34,7 +34,7 @@
 
 - type: listing
   id: ADTBoberPulse
-  name: boobr-pulse-name
+  name: Импульсный карабин
   description: boobr-pulse-desc
   icon: { sprite: /Textures/Objects/Weapons/Guns/Battery/pulse_carbine.rsi, state: icon }
   productEntity: WeaponPulseCarbine
@@ -45,7 +45,7 @@
 
 - type: listing
   id: ADTBoberMateba
-  name: boobr-mateba-name
+  name: Матеба
   description: boobr-mateba-desc
   icon: { sprite: /Textures/ADT/Objects/Weapons/Guns/Revolvers/mateba.rsi, state: icon }
   productEntity: WeaponRevolverMateba
@@ -71,7 +71,7 @@
 
 - type: listing
   id: ADTBoberJawOfLife
-  name: boobr-JawsOfLife-name
+  name: Челюсти жизни
   description: boobr-JawsOfLife-desc
   productEntity: JawsOfLife
   cost:
@@ -101,7 +101,7 @@
 
 - type: listing
   id: ADTBoberJetPack
-  name: boobr-jetpack-name
+  name: Джетпак
   productEntity: JetpackVoidFilled
   description:  boobr-jetpack-desc
   cost:
@@ -109,15 +109,15 @@
   categories:
   - ADTUplinkERTMisc
 
-- type: listing
-  id: ADTBoberGrapplingGun
-  name: boobr-grappling-gun-name
-  productEntity: WeaponGrapplingGun
-  description:  boobr-grappling-gun-desc
-  cost:
-    Productunit: 1
-  categories:
-  - ADTUplinkERTMisc
+#- type: listing
+#  id: ADTBoberGrapplingGun
+#  name: boobr-grappling-gun-name
+#  productEntity: WeaponGrapplingGun
+#  description:  boobr-grappling-gun-desc
+#  cost:
+#    Productunit: 1
+#  categories:
+#  - ADTUplinkERTMisc
 
 - type: listing
   id: ADTBoberMediKit
@@ -131,9 +131,19 @@
 
 - type: listing
   id: ADTBoberMedipen
-  name: боевой медипен
+  name: Боевой медипен
   productEntity: CombatMedipen
   description:  Одноразовый медипен, содержащий химические вещества, восстанавливающие большинство видов повреждений.
+  cost:
+    Productunit: 1
+  categories:
+  - ADTUplinkERTmed
+
+- type: listing
+  id: ADTBoberMedipenPunct
+  name: Автоинъектор пунктураза
+  productEntity: PunctAutoInjector
+  description:  Одноразовый медипен, содержащий химические вещества, восстанавливающие колотые раны.
   cost:
     Productunit: 1
   categories:
@@ -169,11 +179,31 @@
   categories:
   - ADTUplinkERTMisc
 
+- type: listing
+  id: BoberOxtank1
+  name: Двойной кислородный баллон
+  productEntity: DoubleEmergencyOxygenTank
+  description: Высококлассный двухбаллонный резервуар аварийного жизнеобеспечения. Вмещает 2,5 Л газа.
+  cost:
+    Productunit: 1
+  categories:
+  - ADTUplinkERTMisc
+
+- type: listing
+  id: BoberNitank1
+  name: Двойной азотный баллон
+  productEntity: DoubleEmergencyNitrogenTank
+  description: Высококлассный двухбаллонный резервуар аварийного жизнеобеспечения. Вмещает 2,5 Л газа.
+  cost:
+    Productunit: 1
+  categories:
+  - ADTUplinkERTMisc
+
   #ammo
 
 - type: listing
   id: ADTBoberDrozdAmmo
-  name: магазин 35.авто
+  name: Магазин 35.авто
   description: Магазин для пистолета-пулемёта Дрозд
   icon: { sprite: Objects/Weapons/Guns/Ammunition/Magazine/Pistol/smg_mag.rsi, state: red }
   productEntity: MagazinePistolSubMachineGun
@@ -184,7 +214,7 @@
 
 - type: listing
   id: ADTBoberLecterAmmo
-  name: магазин 20.винтовочный
+  name: Магазин 20.винтовочный
   description: Магазин для Лектера и М-90
   icon: { sprite: Objects/Weapons/Guns/Ammunition/Magazine/Rifle/rifle_mag.rsi, state: red }
   productEntity: MagazineRifle
@@ -195,7 +225,7 @@
 
 - type: listing
   id: ADTBoberMatebaAmmo
-  name: спидлоадер 45.магнум
+  name: Спидлоадер 45.магнум
   description: Спидлоадер 45.магнум для револьвера Матеба
   icon: { sprite: Objects/Weapons/Guns/Ammunition/SpeedLoaders/Magnum/magnum_speed_loader.rsi, state: icon }
   productEntity: SpeedLoaderMagnum

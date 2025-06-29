@@ -157,14 +157,11 @@
     pocket2: DrinkWaterBottleFull
   storage:
     back:
-    - DrinkWaterMelonJuiceJug
     - Bible
     - CrowbarRed
-    - FoodBakedBunHotX
-    - FoodBakedBunHotX
-    - Lighter
     - PinpointerNuclear
     - BaseUplinkBOBERT
+    - PinpointerCult
 - type: startingGear
   id: ERTChaplainGearEVA
   equipment:
@@ -183,16 +180,10 @@
     pocket2: DrinkWaterBottleFull
   storage:
     back:
-    - DrinkWaterMelonJuiceJug
-    - Lantern
-    - Lantern
     - Bible
     - CrowbarRed
-    - FoodBakedBunHotX
-    - FoodBakedBunHotX
-    - Lighter
     - BaseUplinkBOBERT
-    - PinpointerNuclear
+    - PinpointerCult
 # Engineer
 - type: job
   id: ERTEngineer

@@ -37,23 +37,23 @@ boobr-bullet-shield-desc = Щит на случай беспорядков, со
 boobr-mag-boots-name = магнитные сапоги обр
 boobr-mag-boots-desc = Магнитные сапоги, специально разработанные для ведения боевых действий в космосе. Данная модель выдается бойцам отрядов ОБР.
 
-boobr-JawsOfLife-name = челюсти жизни
+boobr-JawsOfLife-name = Челюсти жизни
 boobr-JawsOfLife-desc = Набор челюстей жизни, скомпонованных при помощи магии науки.
 
 boobr-c4-name = C-4
 boobr-c4-desc = Используйте её, чтобы разрушать стены, шлюзы. Её можно прикрепить практически к любому объекту, а таймер можно изменять, минимальное значение - 10 секунд.
 
-boobr-granade-name = шрапнельная граната
+boobr-granade-name = Шрапнельная граната
 boobr-granade-desc = Разбрасывает вокруг себя облако шрапнели, вызывающей множественные раны и кровотечения.
 
-boobr-jetpack-name = джетпак
+boobr-jetpack-name = Джетпак
 boobr-jetpack-desc = Позволяет с лёгкостью передвигаться вне станции.
 
-boobr-grappling-gun-name = крюк-кошка
+boobr-grappling-gun-name = Крюк-кошка
 boobr-grappling-gun-desc = Для лёгкого перемещения вне станции. Меч со сменным лезвием не в комплекте.
 
-boobr-medikit-name = продвинутая аптечка
+boobr-medikit-name = Продвинутая аптечка
 boobr-medikit-desc = Продвинутый набор для оказания помощи при продвинутых ранах.
 
-boobr-portable-recharger-name = переносной зарядник
+boobr-portable-recharger-name = Переносной зарядник
 boobr-portable-recharger-desc = Позволяет перезаряжать энергооружие на ходу!

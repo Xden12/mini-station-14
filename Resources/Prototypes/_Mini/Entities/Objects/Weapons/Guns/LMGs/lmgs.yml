@@ -54,12 +54,12 @@
       shape:
       - 0,0,4,3
     - type: Gun
-      fireRate: 8
-      minAngle: -5
+      fireRate: 9
+      minAngle: 0
       maxAngle: 25
       angleDecay: 15
-      angleIncreasePerShot: 2
-      angleIncreasePerSecond: 8
+      angleIncreasePerShot: 1
+      angleIncreasePerSecond: 4
       soundGunshot:
         path: /Audio/_Mini/LMGs/gunshotsaint.ogg
     - type: Sprite

@@ -38,7 +38,7 @@
     - suitStorage
   - type: AmmoCounter
   - type: Gun
-    fireRate: 1
+    fireRate: 0.3
     selectedMode: SemiAuto
     availableModes:
       - SemiAuto
@@ -48,7 +48,7 @@
     whitelist:
       tags:
         - Grenade
-    capacity: 1
+    capacity: 2
     proto: GrenadeFrag
     soundInsert:
       path: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg

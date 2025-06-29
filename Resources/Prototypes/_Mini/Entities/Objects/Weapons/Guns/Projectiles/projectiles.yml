@@ -5,25 +5,24 @@
   parent: BaseBullet
   components:
   - type: StaminaDamageOnCollide
-    damage: 8
+    damage: 11
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     state: saintbullet
   - type: Projectile
     damage:
       types:
-        Blunt: 1
         Holy: 20
   - type: SolutionContainerManager
     solutions:
       ammo:
-        maxVol: 0.6
+        maxVol: 0.8
   - type: RefillableSolution
     solution: ammo
   - type: DrainableSolution
     solution: ammo
   - type: SolutionInjectOnProjectileHit
-    transferAmount: 0.6
+    transferAmount: 0.8
     solution: ammo
   - type: InjectableSolution
     solution: ammo
@@ -47,9 +46,9 @@
         ammo:
           reagents:
           - ReagentId: Holywater
-            Quantity: 0.6
+            Quantity: 0.8
     - type: SolutionTransfer
-      maxTransferAmount: 0.6
+      maxTransferAmount: 0.8
     - type: ChemicalAmmo
 
 - type: entity

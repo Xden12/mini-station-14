@@ -861,7 +861,19 @@
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitERTChaplain
   - type: DNALocker # ADT-Tweak
-
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.25
+        Slash: 0.25
+        Piercing: 0.25
+        Heat: 0.25
+        Caustic: 0.25
+        Cold: 0.3
+        Asphyxiation: 0.4
+  - type: ClothingSpeedModifier
+    walkModifier: 0.7
+    sprintModifier: 0.7
 #ERT Engineer Hardsuit
 - type: entity
   parent: ClothingOuterHardsuitCBURN
